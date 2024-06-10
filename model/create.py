@@ -36,8 +36,10 @@ def docente(nombre, apellido, especialidad, correo_electronico, facultad, contra
             # Confirmar los cambios
             connection.commit()
             print("Docente registrado exitosamente.")
+            notify("Docente registrado exitosamente.")
     except Exception as e:
         print(f"Error al registrar el docente: {e}")
+        notify("Error al registrar el docente.")
     finally:
         # Cerrar la conexión
         connection.close()

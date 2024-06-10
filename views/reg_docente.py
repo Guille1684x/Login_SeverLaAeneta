@@ -1,5 +1,5 @@
 from tkinter import *
-from model.registrar import docente
+from model.create import docente
 
 def registrar_Docente(mainView, parentView):
     regDocView = Toplevel(mainView)

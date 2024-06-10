@@ -1,6 +1,6 @@
 from tkinter import *
-from views.reg_alumno_view import registrar_Estudiante
-from views.reg_docente_view import registrar_Docente
+from views.reg_alumno import registrar_Estudiante
+from views.reg_docente import registrar_Docente
 
 def registrar(mainView):
     pantallaReg = Toplevel(mainView)

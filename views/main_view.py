@@ -1,5 +1,6 @@
 from tkinter import *
-from views.register_view import registrar
+from views.register import registrar
+from views.login import login
 
 def main_window():
 
@@ -37,7 +38,7 @@ def main_window():
         text="Iniciar sesión",
         height="3",
         width="30",
-        command=lambda: registrar(mainView=pantalla)).pack()
+        command=lambda: login(mainView=pantalla)).pack()
 
     Label(pantalla, text="").pack()
 

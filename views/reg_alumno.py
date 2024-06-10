@@ -1,5 +1,5 @@
 from tkinter import *
-from model.registrar import alumno
+from model.create import alumno
 
 
 def registrar_Estudiante(mainView, parentView):
